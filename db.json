@@ -2,7 +2,8 @@
 	"employeeOfTheMonth": {
 		"name": "Júnior",
 		"position": "Software Engineer",
-		"image": "/public/images/junior-foto-very-small.jpg",
+		"image": 
+		"/public/images/junior-foto-very-small.jpg",
 		"description": "Dev pet and tutorialist extraordinaire"
 	}
 } 

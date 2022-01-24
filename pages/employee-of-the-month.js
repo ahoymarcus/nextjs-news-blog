@@ -4,7 +4,9 @@ import Link from 'next/link';
 
 export const EmplyeeOfTheMont = ({ employee }) => {
 	console.log(employee);
+	
 	const { name, position, image, description } = employee.employeeOfTheMonth;
+	
 	
 	return (
 		<div className="page-container">
