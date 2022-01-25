@@ -22,7 +22,7 @@ https://newsapi.org/v2/top-headlines?country=us&pageSize=5&page=${pageNumber}
 <br />
 
 
-- [my Next-JS Blog App em Vercel]()
+- [my Next-JS Blog App em Vercel](https://nextjs-reactjs-news-blog.vercel.app/)
 
 
 <br />
@@ -37,35 +37,20 @@ Dependências:
 <br />
 
 
-### I:
+### Imagem do News Blog App na página Home:
 
-![Imagem do Blog com o seu conteúdo estático](/public/images/)
-
-
-<br />
-
-
-### I:
-
-![Imagem do Blog apresentando ao final uma lista com mensagens postadas](/public/images/)
-
+![Imagem do News Blog App na página Home](/public/images/nextjs-news-blog-01.png)
 
 
 <br />
 
 
-### I:
+### Imagem da página de feed do News Blog App:
 
-![Imagem do Blog apresentando uma página dinâmica de postagem](/public/images/)
-
-
-
-<br />
+![Imagem da página de feed do News Blog App](/public/images/nextjs-news-blog-02.png)
 
 
-### I:
 
-![Imagem do Blog apresentando ao final uma lista com mensagens postadas](/public/images/)
 
 
 
