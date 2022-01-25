@@ -1,7 +1,7 @@
 // NEWS API
 // https://newsapi.org/
 // https://www.youtube.com/watch?v=xtItzwYG6oQ
-// 0 hrs 12' 20''
+// 0 hrs 24' 20''
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';

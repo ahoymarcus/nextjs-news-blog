@@ -1,5 +1,8 @@
 import Link from 'next/link';
 
+// styles
+import styles from '../styles/employee-of-the-month.module.css';
+
 
 
 export const EmplyeeOfTheMont = ({ employee }) => {
@@ -10,14 +13,19 @@ export const EmplyeeOfTheMont = ({ employee }) => {
 	
 	return (
 		<div className="page-container">
-			<div>
-				<h1>Emplyee Of The Month</h1>
+			<div className={styles.navLink}>
 				<Link href="/"><a>Home</a></Link>
+			</div>
+			
+			<div className={styles.main}>
+				<h1>Emplyee Of The Month</h1>
 				
-				<h3>{name}</h3>
-				<h6>{position}</h6>
-				<img src={image} />
-				<h5>{description}</h5>
+				<div className={styles.emplyeeOfTheMont}>
+					<h3>{name}</h3>
+					<h6>{position}</h6>
+					<img src={image} />
+					<p>{description}</p>
+				</div>
 			</div>
 		</div>
 	);
