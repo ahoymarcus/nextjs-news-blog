@@ -15,10 +15,16 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <>
-			Hello world
-			<Link href="/employee-of-the-month"><a>Eom</a></Link> 
-			
-			
+			<div className="page-container">
+				<Link href="/employee-of-the-month"><a>Eom</a></Link> 
+				
+				<div className={styles.main}>
+					<h1>Next.js News App</h1>
+					
+					<h3>Your one stop shop for the latest news articles</h3>
+				</div>
+				
+			</div>
 		</>
   )
 }
