@@ -6,7 +6,7 @@ export const EmplyeeOfTheMont = ({ employee }) => {
 	console.log(employee);
 	
 	const { name, position, image, description } = employee.employeeOfTheMonth;
-	
+	console.log(image);
 	
 	return (
 		<div className="page-container">
