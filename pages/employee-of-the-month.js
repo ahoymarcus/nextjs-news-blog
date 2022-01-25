@@ -1,7 +1,11 @@
+import Head from 'next/head';
 import Link from 'next/link';
 
 // styles
-import styles from '../styles/employee-of-the-month.module.css';
+import styles from '../styles/EmployeeOfTheMonth.module.css';
+
+// components
+import { Toolbar } from '../components/Toolbar';
 
 
 
@@ -13,9 +17,11 @@ export const EmplyeeOfTheMont = ({ employee }) => {
 	
 	return (
 		<div className="page-container">
-			<div className={styles.navLink}>
-				<Link href="/"><a>Home</a></Link>
-			</div>
+			<Head>
+				<title>Employee Of The Month</title>
+			</Head>
+			
+			<Toolbar />
 			
 			<div className={styles.main}>
 				<h1>Emplyee Of The Month</h1>

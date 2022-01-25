@@ -3,11 +3,12 @@
 // https://www.youtube.com/watch?v=xtItzwYG6oQ
 // 0 hrs 24' 20''
 import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
 
 // styles
 import styles from '../styles/Home.module.css';
+
+// components
+import { Toolbar } from '../components/Toolbar';
 
 
 
@@ -15,8 +16,11 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <>
+			<Head>
+				<title>News Blog - Next.js</title>
+			</Head>
 			<div className="page-container">
-				<Link href="/employee-of-the-month"><a>Eom</a></Link> 
+				<Toolbar /> 
 				
 				<div className={styles.main}>
 					<h1>Next.js News App</h1>
