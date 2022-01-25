@@ -5,8 +5,8 @@ import Link from 'next/link';
 export const EmplyeeOfTheMont = ({ employee }) => {
 	console.log(employee);
 	
-	const { name, position, image, description } = employee.employeeOfTheMonth;
-	console.log(image);
+	const { name, position, image, description } = employee;
+	
 	
 	return (
 		<div className="page-container">
@@ -28,7 +28,7 @@ export const EmplyeeOfTheMont = ({ employee }) => {
 // 2. https://my-json-server.typicode.com/portexe/next-news/employeeOfTheMonth
 // pageContext is provided automatically by Next-JS
 export const getServerSideProps = async pageContext => {
-	const apiResponse = await fetch('https://raw.githubusercontent.com/ahoymarcus/nextjs-news-blog/main/db.json',);
+	const apiResponse = await fetch('https://my-json-server.typicode.com/portexe/next-news/employeeOfTheMonth',);
 	const employee = await apiResponse.json();
 	
 	return {
