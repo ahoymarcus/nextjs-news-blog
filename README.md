@@ -3,11 +3,20 @@
 
 <br />
 
-Um app Next.JS e React-JS para criar um Blog App e notícias utilizando a News API (https://newsapi.org/).:[^1]
+Um app Next.JS que renderiza um Blog de notícias utilizando a API pública News API (https://newsapi.org/), passando alguns parâmetros para a requição definindo número de artigos por página e a página propriamente dita que é passada de forma dinâmica na URL.:[^1]
 
 <br />
 
-__________.
+Abaixo temos o endereço de notícias da API em que passamos 3 parâmetros, sendo o 3º o parâmetro dinâmico:
+
+1. country
+2. Size
+3. pageNumber
+
+
+```
+https://newsapi.org/v2/top-headlines?country=us&pageSize=5&page=${pageNumber}
+```
 
 
 <br />

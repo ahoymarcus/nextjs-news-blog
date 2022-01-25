@@ -14,6 +14,8 @@ export const EmplyeeOfTheMont = ({ employee }) => {
 	
 	const { name, position, image, description } = employee;
 	
+	console.log(image);
+	
 	
 	return (
 		<div className="page-container">
